@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    tools:context=".NotificationAnalytics">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="198dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/titlepage"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:textSize="26sp"
+                    android:textColor="#FFF"
+                    android:text="Notification Analytics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/notification_snooze"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:src="@drawable/ic_notifications_off_black_24dp">
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+<!--
+<LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_weight="20"-->
+<!--                android:layout_marginRight="20sp">-->
+<!--                <Button-->
+<!--                    android:layout_marginTop="35dp"-->
+<!--                    android:id="@+id/btnAddNew"-->
+<!--                    android:text="+"-->
+<!--                    android:background="@drawable/bgbtnnew"-->
+<!--                    android:textSize="38sp"-->
+<!--                    android:textColor="@color/colorPrimaryDark"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:layout_width="52dp"-->
+<!--                    android:layout_height="52dp"-->
+<!--                    />-->
+<!--                <Button-->
+<!--                    android:layout_marginTop="35dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:id="@+id/btnNotAna"-->
+<!--                    android:background="@drawable/ic_not"-->
+<!--                    android:textSize="38sp"-->
+<!--                    android:textColor="#fff"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:layout_width="52dp"-->
+<!--                    android:layout_height="52dp"-->
+<!--                    />-->
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notification_rv"
+        android:layout_width="match_parent"
+        android:layout_marginTop="-60dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/MainDisguise"
+        android:layout_marginTop="30sp"
+        >
+
+        <TextView
+            android:id="@+id/explain_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40sp"
+            android:fontFamily="sans-serif-black"
+            android:text="We need Notification Access"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/explain_desc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/explain_title"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25sp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/explain"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/allownot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/explain_desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25sp"
+            android:padding="25sp"
+            android:text="Allow Notification Access"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+
+            >
+
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "969983817870",
+    "firebase_url": "https://tickit-699eb.firebaseio.com",
+    "project_id": "tickit-699eb",
+    "storage_bucket": "tickit-699eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969983817870:android:1af3fe6f7107d8e16ab1df",
+        "android_client_info": {
+          "package_name": "com.example.tickit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969983817870-i5jjo31hs5fk2750fgd7nn734691kn60.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tickit",
+            "certificate_hash": "897b96c48def8bc6cd8b9e005c808b58fffe91a9"
+          }
+        },
+        {
+          "client_id": "969983817870-s24ichmg74ris639pl51bo6oce9br8bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVyDZ1At5BoxRIsZXVXa3lO5JSPeozO_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969983817870-s24ichmg74ris639pl51bo6oce9br8bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
