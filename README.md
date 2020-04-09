@@ -11,6 +11,8 @@ It is a service that receives calls from system when new notifications are poste
 To extend this class, you must declare the service in your manifest file with the Manifest.permission.BIND_NOTIFICATION_LISTENER_SERVICE permission and include an intent filter with the SERVICE_INTERFACE action.
 [NotificationListenerService Docs](https://developer.android.com/reference/android/service/notification/NotificationListenerService)
 
+## App download link from getjar(Not on playstore as I still don't have google play developer account ) http://www.getjar.mobi/mobile/974371/Tick-It-Notification-Monitor
+
 ### Screenshots
 <img src="https://raw.githubusercontent.com/webbyharsh/TickIt/master/readmesrc/WhatsApp%20Image%202020-01-05%20at%2012.35.55%20AM.jpeg" width="400" height="550" />
 <img src="readmesrc/WhatsApp Image 2020-01-05 at 12.35.55 AM (1).jpeg" width="400" height="550" />
